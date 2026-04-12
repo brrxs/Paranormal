@@ -1,0 +1,24 @@
+# analysis_b — Python dependencies
+# Create venv:  python -m venv .venv
+# Activate:     .venv\Scripts\activate   (Windows)
+# Install:      pip install -r requirements.txt
+# spaCy model:  python -m spacy download en_core_web_lg
+
+# --- core data ---
+pandas>=2.0
+numpy>=1.26
+pyarrow>=15.0          # parquet read/write
+
+# --- ML / NLP ---
+scikit-learn>=1.4
+scipy>=1.12
+spacy>=3.7             # NLP pipeline + en_core_web_lg vectors
+joblib>=1.3            # model serialisation (used in 03_lda)
+
+# --- visualisation ---
+matplotlib>=3.8
+seaborn>=0.13
+
+# --- notebook runtime ---
+jupyter>=1.0
+ipykernel>=6.29
