@@ -1,9 +1,6 @@
 # Virtual environment
 .venv/
 
-# Data files (too large for git)
-artifacts/posts_clean.parquet
-
 # Python cache
 __pycache__/
 *.pyc
