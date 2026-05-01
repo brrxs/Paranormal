@@ -14,6 +14,7 @@ scikit-learn>=1.4
 scipy>=1.12
 spacy>=3.7             # NLP pipeline + en_core_web_lg vectors
 joblib>=1.3            # model serialisation (used in 03_lda)
+gsdmm                  # short-text topic model (rwalk/gsdmm on GitHub)
 
 # --- visualisation ---
 matplotlib>=3.8
